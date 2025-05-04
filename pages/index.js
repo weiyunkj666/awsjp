@@ -75,16 +75,16 @@ export default function App() {
   const [proxy, setProxy] = useState("");
 
   //Configuration States
-  const [liRegion, setLiRegion] = useState("");
-  const [system, setSystem] = useState("");
+  const [liRegion, setLiRegion] = useState("ca-central-1");
+  const [system, setSystem] = useState("Arch Linux");
   const [systemType, setSystemType] = useState("");
-  const [type, setType] = useState("");
+  const [type, setType] = useState("t2.micro");
   const [ami, setAmi] = useState("");
-  const [password, setPassword] = useState("");
-  const [disk, setDisk] = useState("");
-  const [userdata, setUserdata] = useState("")
-  const [gqRegion, setGqRegion] = useState("");
-  const [ciRegion, setCiRegion] = useState("");
+  const [password, setPassword] = useState("weiyunkj");
+  const [disk, setDisk] = useState("30");
+  const [userdata, setUserdata] = useState("ca-central-1")
+  const [gqRegion, setGqRegion] = useState("ca-central-1");
+  const [ciRegion, setCiRegion] = useState("ca-central-1");
 
   //Interaction States
   const [dialogOpen, setDialogOpen] = useState(false);
